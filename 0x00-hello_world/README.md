@@ -1,0 +1,1 @@
+*  mandatory file for alx school project*

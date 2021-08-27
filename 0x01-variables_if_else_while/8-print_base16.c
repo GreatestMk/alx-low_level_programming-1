@@ -8,28 +8,28 @@
 int main(void)
 {
 
-  int i;
+int i;
 
-  int j = 48;
+int j = 48;
 
-  char c = 'a';
+char c = 'a';
 
-  for (i = 0; i < 16; i++)
-    {
+for (i = 0; i < 16; i++)
+{
 
-      if (i > 9)
-	{
-	  putchar(c);
-	  c++;
-	}
-      else
-	{
-	  putchar(j);
-	  j++;
-	}
-    }
+if (i > 9)
+{
+putchar(c);
+c++;
+}
+else
+{
+putchar(j);
+j++;
+}
+}
 
-  putchar('\n');
+putchar('\n');
 
-  return (0);
+return (0);
 }

@@ -8,20 +8,20 @@
 int main(void)
 {
 
-  int i;
-  int j = 48;
+int i;
+int j = 48;
 
-  for (i = 0; i < 10; i++)
-    {
-      putchar(j);
+for (i = 0; i < 10; i++)
+{
+putchar(j);
 
-      if (j != 57)
-	{
-	  putchar(',');
-	  putchar(' ');
-	}
-      j++;
-    }
-  putchar('\n');
-  return (0);
+if (j != 57)
+{
+putchar(',');
+putchar(' ');
+}
+j++;
+}
+putchar('\n');
+return (0);
 }

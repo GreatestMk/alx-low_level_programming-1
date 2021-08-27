@@ -7,14 +7,14 @@
 
 int main(void)
 {
-  int i;
+int i;
 
-  int j = 48;
+int j = 48;
 
-  for (i = 0; i < 10; i++, j++)
-    {
-      putchar(j);
-    }
-  putchar('\n');
-  return (0);
+for (i = 0; i < 10; i++, j++)
+{
+putchar(j);
+}
+putchar('\n');
+return (0);
 }

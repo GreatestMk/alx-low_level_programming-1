@@ -7,17 +7,17 @@
 
 int main(void)
 {
-  int i;
+int i;
 
-  char c = 'a';
+char c = 'a';
 
-  for (i = 0; i < 26; i++)
-    {
-      putchar(c);
-      c++;
-    }
+for (i = 0; i < 26; i++)
+{
+putchar(c);
+c++;
+}
 
-  putchar('\n');
+putchar('\n');
 
-  return (0);
+return (0);
 }

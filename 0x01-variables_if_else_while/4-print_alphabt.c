@@ -7,23 +7,23 @@
 
 int main(void)
 {
-  int i;
+int i;
 
-  char c = 'a';
+char c = 'a';
 
-  for (i = 0; i < 24; i++)
-    {
+for (i = 0; i < 24; i++)
+{
 
-      if (c == 'e' || c == 'q')
-	{
-	  c++;
-	}
-      putchar(c);
-      c++;
+if (c == 'e' || c == 'q')
+{
+c++;
+}
+putchar(c);
+c++;
 
-    }
+}
 
-  putchar('\n');
+putchar('\n');
 
-  return (0);
+return (0);
 }

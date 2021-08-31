@@ -1,11 +1,11 @@
 #include <stdio.h>
 
  /**
-  * main - Prints the sum of even-valued Fibonacci sequence
-  *        terms not exceeding 4000000.
-  *
-  * Return: Always 0.
-  */
+ * main - Fibonacci numbers for numbers not more than 40000
+ * uses putchar and printf function
+ * uses a and b as placeholders for the 2 previous numbers
+ * Return: 0 success
+ */
 int main(void)
 {
 unsigned long fib1 = 0, fib2 = 1, fibsum;

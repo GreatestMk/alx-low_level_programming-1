@@ -13,21 +13,21 @@ int main(void)
   unsigned long p1 = 2; /* second previous number */
 
   for (i = 1; i <= 50; i++)
-    {
-      if (i <= 2)
-	num = i;
-      else
-	{
-	  num = p0 + p1;
-	  p0 = p1;
-	  p1 = num;
-	}
-      printf("%li", num);
-      if (i != 50)
-	{
-	  printf(", ");
-	}
-    }
-  printf("\n");
-  return (0);
+ {
+if (i <= 2)
+num = i;
+else
+{
+num = p0 + p1;
+p0 = p1;
+p1 = num;
+}
+printf("%li", num);
+if (i != 50)
+{
+printf(", ");
+}
+}
+printf("\n");
+return (0);
 }
